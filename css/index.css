@@ -394,5 +394,30 @@ h1, h2, h3, h4, h5 {
     .lower-middle div {
         margin: 3%;
     }
+    .services-header-img {
+        margin-top: 60%;
+    }
+    section div {
+        width: 100%;
+    }
+    .services {
+        display: flex;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .box {
+        width: 100%;
+        margin: 2%;
+        height: 50vh;
+    }
+    .bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250%;
+    }
+    .bottom-facts {
+        width: 100%;
+    }
 }
 
