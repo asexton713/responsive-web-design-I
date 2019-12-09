@@ -319,6 +319,28 @@ h1, h2, h3, h4, h5 {
     #contact {
         width: 25%;
     }
+    .services-header-img {
+        margin-top: 15%;
+    }
+    section div {
+        width: 100%;
+    }
+    .services {
+        display: flex;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .box {
+        width: 100%;
+        margin: 2%;
+        height: 22%;
+    }
+    .bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 53%;
+    }
   }
   @media (max-width: 500px) {
 	nav {
