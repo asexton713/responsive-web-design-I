@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
 	margin: 3%;
 	  font-family: 'Gochi Hand', cursive;
   }
-  nav {
+  .navigation {
 	  position: fixed;
 	  top: 0;
 	  width: 100%;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5 {
   nav a:hover {
 	transform: skewY(20deg);
   }
-  .logo {
+  .navigation img {
 	position: relative;
 	vertical-align:middle;
   }
@@ -251,9 +251,77 @@ h1, h2, h3, h4, h5 {
 	margin: 5% auto;
   }
 
-  @media (max-width: 600px) {
-	
-	}
+  @media (max-width: 800px) {
+      body {
+          width: 95%;
+      }
+      .navigation {
+          display: flex;
+          flex-direction: column-reverse;
+          align-content: center;
+          justify-content: space-evenly;
+          justify-items: center;
+          margin: 0 auto;
+          background-color: white;
+         
+      }
+      .navigation img {
+          width: 25%;
+          display:flex; 
+          align-content: center;
+          justify-content: center;
+          margin: 0 auto;
+          padding: 3%;
+          background-color: white;
+      }
+      nav {
+        max-width: 90%;
+        justify-content: center;
+        display:flex;
+        margin-left: 1%;
+        background-color: white;
+    }
+    nav .logo {
+        display: flex;
+        background-color: white;
+    }
+    .top-section1 img {
+        display: none;
+    }
+    .top-section1 {
+        display: flex;
+        width: 90%;
+        padding-top: 20%;
+        margin-bottom: -7%;
+        align-content: center;
+        justify-content: center;
+    }
+    .middle-top {
+        display: flex;
+        width: 90%;
+        margin-left: 0%;
+    }
+    .middle-top div {
+        width: 100%; 
+        margin: 0 auto;
+    }
+    .middle-img {
+        width: 95%;
+    }
+    .lower-middle {
+        display:flex;
+        width: 90%;
+    }
+    .foot {
+        width: 100%;
+        margin-left: 4%;
+    }
+    #contact {
+        width: 25%;
+    }
   }
-
+  @media (max-width: 500px) {
+	
+}
+}
 
